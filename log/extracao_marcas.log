@@ -1,0 +1,30 @@
+2025-11-05 18:01:53,760 [INFO] Extraindo BOT (código 1) para ciclo 16...
+2025-11-05 18:02:09,061 [DEBUG] Linha com 0 colunas para BOT
+2025-11-05 18:02:09,081 [DEBUG] Linha com 0 colunas para BOT
+2025-11-05 18:02:09,099 [DEBUG] Linha com 0 colunas para BOT
+2025-11-05 18:02:09,115 [DEBUG] Linha com 0 colunas para BOT
+2025-11-05 18:02:09,132 [DEBUG] Linha com 0 colunas para BOT
+2025-11-05 18:02:09,149 [DEBUG] Linha com 0 colunas para BOT
+2025-11-05 18:02:09,167 [DEBUG] Linha com 5 colunas para BOT
+2025-11-05 18:02:09,186 [DEBUG] Extraindo Valor Praticado da coluna 3: 143.141,01
+2025-11-05 18:02:09,187 [INFO] BOT ciclo 16: R$ 143,141.01
+2025-11-05 18:02:11,188 [INFO] Extraindo OUI (código 26367) para ciclo 16...
+2025-11-05 18:02:26,606 [DEBUG] Linha com 0 colunas para OUI
+2025-11-05 18:02:26,624 [DEBUG] Linha com 0 colunas para OUI
+2025-11-05 18:02:26,642 [DEBUG] Linha com 0 colunas para OUI
+2025-11-05 18:02:26,663 [DEBUG] Linha com 0 colunas para OUI
+2025-11-05 18:02:26,692 [DEBUG] Linha com 0 colunas para OUI
+2025-11-05 18:02:26,717 [DEBUG] Linha com 0 colunas para OUI
+2025-11-05 18:02:26,742 [DEBUG] Linha com 5 colunas para OUI
+2025-11-05 18:02:26,768 [DEBUG] Extraindo Valor Praticado da coluna 3: 6.143,21
+2025-11-05 18:02:26,769 [INFO] OUI ciclo 16: R$ 6,143.21
+2025-11-05 18:02:28,771 [INFO] Extraindo QDB (código 38489) para ciclo 16...
+2025-11-05 18:02:44,078 [DEBUG] Linha com 0 colunas para QDB
+2025-11-05 18:02:44,095 [DEBUG] Linha com 0 colunas para QDB
+2025-11-05 18:02:44,111 [DEBUG] Linha com 0 colunas para QDB
+2025-11-05 18:02:44,128 [DEBUG] Linha com 0 colunas para QDB
+2025-11-05 18:02:44,146 [DEBUG] Linha com 0 colunas para QDB
+2025-11-05 18:02:44,163 [DEBUG] Linha com 0 colunas para QDB
+2025-11-05 18:02:44,180 [DEBUG] Linha com 5 colunas para QDB
+2025-11-05 18:02:44,199 [DEBUG] Extraindo Valor Praticado da coluna 3: 3.324,49
+2025-11-05 18:02:44,204 [INFO] QDB ciclo 16: R$ 3,324.49
