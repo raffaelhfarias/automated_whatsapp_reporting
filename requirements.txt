@@ -1,0 +1,22 @@
+# Dependências para extração de dados (Web Scraping)
+requests
+beautifulsoup4
+lxml
+selenium
+undetected-chromedriver
+
+# Manipulação e validação de dados
+pandas
+python-dateutil
+
+# Dependências para envio por WhatsApp
+pywhatkit
+pyperclip
+pyautogui
+
+# Dependências para logging e utilitários
+dataclasses
+typing-extensions
+
+# Dependências para validação e configuração
+python-dotenv
