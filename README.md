@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <br>
   <a href="https://raw.githubusercontent.com/raffaelhfarias/automated_whatsapp_reporting/refs/heads/main/imagens/"><img src="https://raw.githubusercontent.com/raffaelhfarias/automated_whatsapp_reporting/refs/heads/main/imagens/1f916.png" alt="Markdownify" width="200"></a>
@@ -19,17 +18,19 @@
   <img src="https://img.shields.io/badge/pywhatkit-WhatsApp_Automation-lightgreen?logo=whatsapp&logoColor=white" alt="pywhatkit">
 </div>
 
+
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •  
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
 
-<center>
-  <img src="https://github.com/raffaelhfarias/automated_whatsapp_reporting/blob/main/videos/envioWhatsapp.gif?raw=true" alt="Demonstração do Envio via WhatsApp" style="max-width: 100%; height: auto;">
-</center>
+<p align="center">
+  <img src="https://github.com/raffaelhfarias/automated_whatsapp_reporting/blob/main/videos/envioWhatsapp.gif?raw=true" alt="screenshot" width="600">
+</p>
 
 ## Key Features
 
