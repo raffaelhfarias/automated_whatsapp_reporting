@@ -8,7 +8,7 @@
 
 <h4 align="center">Sistema robusto e inteligente para automação de captura de metas, extração de dados de vendas e envio automatizado de relatórios via WhatsApp.</h4>
 
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+<div align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Selenium-Web_Automation-red?logo=selenium&logoColor=white" alt="Selenium">
   <img src="https://img.shields.io/badge/PyAutoGUI-GUI_Automation-yellow?logo=python&logoColor=white" alt="PyAutoGUI">
@@ -24,7 +24,6 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
 
@@ -111,3 +110,4 @@ MIT
 
 > [portfólio](https://raffaelhfarias.github.io/) &nbsp;&middot;&nbsp;
 > GitHub [@raffaelhfarias](https://github.com/raffaelhfarias) &nbsp;&middot;&nbsp;
+
