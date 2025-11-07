@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
 
-LOGIN_URL = "https://sgi.e-boticario.com.br/Paginas/Acesso/Entrar.aspx?ReturnUrl=%2fDefault.aspx"
+LOGIN_URL = "URL"
 
 def setup_logging():
     """Configura o logger para arquivo e console."""
