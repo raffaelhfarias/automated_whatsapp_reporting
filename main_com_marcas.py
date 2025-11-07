@@ -303,9 +303,9 @@ def enviar_mensagens():
         
         # Configuração dos grupos
         GROUP_LINKS = {
-            "LOJA": "InUzOAgZwBVHbihjqG3ylC",  # InUzOAgZwBVHbihjqG3ylC Grupo LOJA
-            "VD": "GEpoPUcny2E7xghvmG9uEJ"    # GEpoPUcny2E7xghvmG9uEJ Grupo VD (PEF, EUD, MARCAS)
-        } # EdqcxgPBhNRDpKiEiXsKLz link do grupo TESTE
+            "LOJA": "LINK DO 1º GRUPO", 
+            "VD": "LINK DO 2º GRUPO CASO NECESSÁRIO"
+        } 
         
         sender = WhatsAppSender([GROUP_LINKS["LOJA"], GROUP_LINKS["VD"]])
         
@@ -510,3 +510,4 @@ if __name__ == "__main__":
     print()
     
     main()
+
