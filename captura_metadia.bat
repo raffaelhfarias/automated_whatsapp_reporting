@@ -5,7 +5,7 @@ cd /d "%~dp0"
 
 REM Ativa o ambiente conda
 echo Ativando ambiente conda...
-call conda activate robowhatsapp
+call conda activate "VARIÁVEL DE AMBIENTE"
 
 echo.
 echo Executando captura_metadia.py...
