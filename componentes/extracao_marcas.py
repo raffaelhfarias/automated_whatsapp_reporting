@@ -19,7 +19,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
 
-LOGIN_URL = "https://sgi.e-boticario.com.br/Paginas/Acesso/Entrar.aspx?ReturnUrl=%2fDefault.aspx"
+LOGIN_URL = "URL"
 
 # Configuração das marcas
 MARCAS_CONFIG = {
@@ -444,3 +444,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
