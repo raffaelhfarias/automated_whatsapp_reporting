@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://raw.githubusercontent.com/raffaelhfarias/automated_whatsapp_reporting/refs/heads/main/imagens/"><img src="https://raw.githubusercontent.com/raffaelhfarias/automated_whatsapp_reporting/refs/heads/main/imagens/1f916.png" alt="Markdownify" width="200"></a>
+  <a href="https://raw.githubusercontent.com/raffaelhfarias/automated_whatsapp_reporting/refs/heads/main/imagens/"><img src="https://raw.githubusercontent.com/raffaelhfarias/automated_whatsapp_reporting/refs/heads/main/imagens/simpleImage.png" alt="robot" width="200"></a>
   <br>
   Whatsapp Sender Report
   <br>
@@ -110,5 +110,6 @@ MIT
 
 > [portfólio](https://raffaelhfarias.github.io/) &nbsp;&middot;&nbsp;
 > GitHub [@raffaelhfarias](https://github.com/raffaelhfarias) &nbsp;&middot;&nbsp;
+
 
 
