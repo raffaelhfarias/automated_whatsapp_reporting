@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Sistema robusto e inteligente para automação de captura de metas, extração de dados de vendas e envio automatizado de relatórios via WhatsApp.</h4>
+<h4 align="center">Sistema inteligente para automação de captura de metas, extração de dados de vendas e envio automatizado de relatórios via WhatsApp.</h4>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
@@ -110,6 +110,7 @@ MIT
 
 > [portfólio](https://raffaelhfarias.github.io/) &nbsp;&middot;&nbsp;
 > GitHub [@raffaelhfarias](https://github.com/raffaelhfarias) &nbsp;&middot;&nbsp;
+
 
 
 
