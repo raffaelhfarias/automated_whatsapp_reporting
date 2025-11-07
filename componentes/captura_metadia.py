@@ -14,17 +14,17 @@ from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
 
 # --- CONFIGURAÇÕES CENTRALIZADAS ---
-CHROME_PATH = r"C:/Program Files/Google/Chrome/Application/chrome.exe"
-USER_DATA_DIR = r"C:/Users/dados/chrome-automation"
+CHROME_PATH = r"CAMINHO DO SEU CHROMEDRIVERWEB"
+USER_DATA_DIR = r"CAMINHO DO SEU GOOGLE CHROME PARA CAPUTRA DE PERFIL"
 PROFILE_DIR = "Profile 1"
-CHROMEDRIVER_PATH = r"C:/Drivers/chromedriver-win64/chromedriver.exe"
+CHROMEDRIVER_PATH = r"CAMINHO DO SEU CHROMEDRIVERWEB"
 
 GRUPOS = [
-    ("VD", "https://web.whatsapp.com/accept?code=GEpoPUcny2E7xghvmG9uEJ"), # Substitua pelas URLs reais corretas
-    ("LOJA", "https://web.whatsapp.com/accept?code=InUzOAgZwBVHbihjqG3ylC") # Substitua pelas URLs reais corretas
+    ("VD", "LINK DO 1º GRUPO"), 
+    ("LOJA", "LINK DO 2º CASO NECESSÁRIO")
 ]
 
-LOG_FILE = 'log/captura_metaDia.log' # Nome do log atualizado
+LOG_FILE = 'log/captura_metaDia.log'
 CSV_FILE = 'extracoes/meta_dia.csv'
 FLAG_FILE = "extracoes/meta_capturada.flag"
 
