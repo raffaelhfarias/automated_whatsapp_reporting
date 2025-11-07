@@ -501,9 +501,9 @@ def main():
     print("📱 Enviador Automático de Informações por WhatsApp")
     print("=" * 60)
     group_links = [
-        "GEpoPUcny2E7xghvmG9uEJ",  # Grupo VD GEpoPUcny2E7xghvmG9uEJ
-        "InUzOAgZwBVHbihjqG3ylC"   # Grupo LOJA InUzOAgZwBVHbihjqG3ylC
-    ] #EdqcxgPBhNRDpKiEiXsKLz link do grupo TESTE
+        "LINK DO 1º GRUPO",
+        "LINK DO 2º GRUPO CASO NECESSÁRIO"
+    ] 
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--metas", type=str, default=None)
