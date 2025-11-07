@@ -9,26 +9,13 @@ import os
 import warnings
 from typing import Dict, List
 
-# Configurações de Login
-# Segurança: não deixe credenciais em texto puro no repositório.
-# As variáveis abaixo tentam ler valores das variáveis de ambiente:
-#   LOGIN_URL, LOGIN_USERNAME, LOGIN_PASSWORD
-# Antes de dar push no repositório, defina essas variáveis no ambiente
-# (ou em um arquivo `.env` local que NÃO deve ser commitado).
 LOGIN_CONFIG = {
-    "url": os.getenv("LOGIN_URL", "https://cp10356.retaguarda.grupoboticario.com.br/app/#/login"),
-    "username": os.getenv("LOGIN_USERNAME", os.getenv("USER", "edgar")),
-    # Não fornecer senha por padrão; force a leitura por variável de ambiente.
-    # Se não houver variável, ficará como string vazia para evitar vazamento.
+    "url": os.getenv("LOGIN_URL", "LINK DO RETAGUARDA"),
+    "username": os.getenv("LOGIN_USERNAME", os.getenv("USER", "USUÁRIO")),
     "password": os.getenv("LOGIN_PASSWORD", "")
 }
 
-
 def warn_if_insecure_login():
-    """Emite um aviso se a configuração de login não tiver senha configurada.
-
-    Uso: chamar no início da execução do programa para alertar o operador.
-    """
     if not LOGIN_CONFIG.get("password"):
         warnings.warn(
             "LOGIN_PASSWORD não está definida. Configure via variável de ambiente antes de executar em produção.",
@@ -38,16 +25,16 @@ def warn_if_insecure_login():
 # Configurações de WhatsApp
 WHATSAPP_CONFIG = {
     "group_links": [
-        "EdqcxgPBhNRDpKiEiXsKLz",  # Grupo VD
-        "InUzOAgZwBVHbihjqG3ylC"   # Grupo Loja
+        "LINK FINAL DO 1º GRUPO",  
+        "LINK FINAL DO 2º GRUPO CASO NECESSÁRIO"   
     ],
     "delay_seconds": 15
 }
 
 # Configurações de Meta
 META_CONFIG = {
-    "vd_group_link": "GEpoPUcny2E7xghvmG9uEJ",
-    "loja_group_link": "InUzOAgZwBVHbihjqG3ylC",
+    "vd_group_link": "LINK FINAL DO 1º GRUPO",
+    "loja_group_link": "LINK FINAL DO 2º GRUPO CASO NECESSÁRIO",
     "search_terms": {
         "vd": "META DIARIA",
         "loja": "segue nossa meta de hoje"
@@ -128,3 +115,4 @@ def ensure_directories():
     """Cria os diretórios necessários se não existirem"""
     os.makedirs(FILE_CONFIG["output_dir"], exist_ok=True)
     os.makedirs(FILE_CONFIG["log_dir"], exist_ok=True)
+
