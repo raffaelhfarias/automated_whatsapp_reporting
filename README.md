@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/raffaelhfarias/automated_whatsapp_reporting/blob/main/videos/envioWhatsapp.gif?raw=true" alt="screenshot" width="600">
+  <img src="" alt="screenshot" width="600">
 </p>
 
 ## Key Features
@@ -110,4 +110,5 @@ MIT
 
 > [portfólio](https://raffaelhfarias.github.io/) &nbsp;&middot;&nbsp;
 > GitHub [@raffaelhfarias](https://github.com/raffaelhfarias) &nbsp;&middot;&nbsp;
+
 
