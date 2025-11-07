@@ -33,11 +33,6 @@ def setup_logging():
     file_handler.setLevel(logging.DEBUG)
     file_handler.setFormatter(formatter)
     
-    # Handler para console (INFO level) - REMOVIDO para evitar duplicação no terminal
-    # console_handler = logging.StreamHandler()
-    # console_handler.setLevel(logging.INFO)
-    # console_handler.setFormatter(formatter)
-    
     # Adiciona os handlers ao logger
     logger.addHandler(file_handler)
     # logger.addHandler(console_handler)
@@ -206,7 +201,7 @@ def realizar_login(driver, usuario, senha, timeout=30):
 
         # 5. Aguarda a mudança de URL (login bem-sucedido)
         WebDriverWait(driver, timeout).until(
-            lambda d: d.current_url == "https://cp10356.retaguarda.grupoboticario.com.br/app/#/"
+            lambda d: d.current_url == "LINK DO RETAGUARDA"
         )
         logger.info("Login realizado com sucesso!")
         time.sleep(2)  # Pequena pausa para estabilização
