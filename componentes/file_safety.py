@@ -11,20 +11,10 @@ import logging
 from datetime import datetime
 
 def limpar_arquivo_especifico(arquivo_path, descricao="arquivo"):
-    """Remove um arquivo específico com tratamento de erro.
-    
-    Args:
-        arquivo_path: Caminho completo do arquivo
-        descricao: Descrição do arquivo para logs
-        
-    Returns:
-        bool: True se removido com sucesso ou não existia, False se erro
-    """
     logger = logging.getLogger(__name__)
     
     if not os.path.exists(arquivo_path):
-        return True  # Arquivo não existe, ok
-    
+        return True      
     try:
         os.remove(arquivo_path)
         logger.info(f"✅ Removido {descricao}: {os.path.basename(arquivo_path)}")
@@ -174,3 +164,4 @@ def ler_timestamp_extracao(arquivo_csv_path):
     except Exception as e:
         logger.warning(f"⚠️ Erro ao ler timestamp de {os.path.basename(arquivo_csv_path)}: {e}")
         return None
+
